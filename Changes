@@ -1,0 +1,37 @@
+Revision history for Perl extension Wx::TreeListCtrl.
+
+0.08  Feb  10  2010
+    - namespace fix
+    
+0.07  Feb  10  2010
+    - Fixed possible Wx::TreeListColumnInfo thread memory leak
+    - Added some tests.   
+
+0.06  Feb   2  2010
+      A patched non official version.
+      get the official version from search.cpan.org
+    - Updated to use latest source from wxTreeListCtrl
+      in wxPython dist but added wxTR_SHOW_ROOT_LABEL_ONLY
+      back in.
+    - added GetColumn SetColumn GetCurrentItem SetCurrentItem
+    - confirmed compilation on wxMAC (carbon), wxMSW, wxGTK (linux)
+
+0.051 A patched non official version.
+      get the official version from search.cpan.org
+
+0.05  Mon Aug  21 2006
+    - changed build system in accordance with Wx 0.57
+	- removed script/pipe.pl
+
+0.04  Fri Aug  18 2006
+    - added lib/Wx/DemoModules/wxTreeList.pm
+
+0.03  Thu Aug  17 2006
+    - added EXPORT_TAG 'treelist'
+
+0.02  Thu Aug  17 2006
+    - fixed exporting of constants
+
+0.01  Tue Aug  8 10:28:54 2006
+	- first attempt at wrapping wxTreeListCtrl
+
