@@ -1,8 +1,6 @@
 Wx-TreeListCtrl
 ===============
 
-This is a patched non official version.
-get the official version from search.cpan.org
 
 A simple wrapper around the wxWidgets class wxTreeListCtrl.
 
@@ -17,11 +15,11 @@ To install this module type the following:
 
 DEPENDENCIES
 
-This module requires wxWdigets and wxPerl:
+This module requires wxWidgets and wxPerl:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2006 by Mark Wardell
+Copyright (C) 2006 - 2010 by Mark Wardell
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.7 or,
